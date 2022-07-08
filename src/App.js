@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import TopNavbar from './components/TopNavbar';
+import Home from './components/Home';
+import Fixtures from './components/Fixtures';
+import Results from './components/Results';
+import Patrickswell from './components/Patrickswell';
+import Hurling from './components/Hurling';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+          <TopNavbar />
+          <div className="content">
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/Fixtures">
+                <Fixtures />
+              </Route>
+              <Route path="/Results">
+                <Results />
+              </Route>
+              <Route path="/Patrickswell">
+                <Patrickswell />
+              </Route>
+              <Route path="/Hurling">
+                <Hurling />
+              </Route>
+            </Switch>
+          </div>
+      </div>
+    </Router>
   );
 }
 

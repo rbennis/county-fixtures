@@ -1,0 +1,111 @@
+{
+    "data": [
+      {
+        "date": "Fri 30th June",
+        "homeTeam": "Nenagh",
+        "awayTeam": "Patrickswell",
+        "homeTeamScore": "1-4",
+        "awayTeamScore": "1-8",
+        "competition": "Senior Hurling Champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell",
+        "code": "football",
+        "id": 1
+      },
+      {
+        "date": "Fri 30th June",
+        "homeTeam": "Roscrea",
+        "awayTeam": "Templemore",
+        "homeTeamScore": "1-9",
+        "awayTeamScore": "1-6",
+        "competition": "Intermediate hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell",
+        "code": "hurling",
+        "id": 2
+      },
+      {
+        "date": "Sat 1st July",
+        "homeTeam": "Ahane",
+        "awayTeam": "Patrickswell",
+        "homeTeamScore": "1-4",
+        "awayTeamScore": "1-18",
+        "competition": "Jnr Hurling Champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell",
+        "code": "camogie",
+        "id": 3
+      },
+      {
+        "date": "Sat 1st July",
+        "homeTeam": "Pallasgreen",
+        "awayTeam": "Oola",
+        "homeTeamScore": "1-20",
+        "awayTeamScore": "1-8",
+        "competition": "U21 hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell Sat ",
+        "code": "ladies football",
+        "id": 4
+      },
+      {
+        "date": "Sat 1st July",
+        "homeTeam": "Newcastle West",
+        "awayTeam": "Abbeyfeale",
+        "homeTeamScore": "1-14",
+        "awayTeamScore": "1-8",
+        "competition": "Minor hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy RussellSat",
+        "code": "hurling",
+        "id": 5
+      },
+      
+      {
+        "date": "Sun 2nd July",
+        "homeTeam": "Patrickswell",
+        "awayTeam": "Ballybrown",
+        "homeTeamScore": "",
+        "awayTeamScore": "",
+        "competition": "U16 hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell Sunday",
+        "code": "football",
+        "id": 5
+      },
+      
+      {
+        "date": "Sun 2nd July",
+        "homeTeam": "Monaleen",
+        "awayTeam": "Na Piarsaigh",
+        "homeTeamScore": "",
+        "awayTeamScore": "",
+        "competition": "U16 hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell Sunday",
+        "code": "hurling",
+        "id": 5
+      },
+      
+      {
+        "date": "Mon 3rd July",
+        "homeTeam": "Patrickswell",
+        "awayTeam": "Adare",
+        "homeTeamScore": "",
+        "awayTeamScore": "",
+        "competition": "U16 hurling champ",
+        "venue":"Golden",
+        "gameTime":"6:30 PM",
+        "referee":"Paddy Russell Monday",
+        "code": "hurling",
+        "id": 5
+      }
+    ]
+  }
