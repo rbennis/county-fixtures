@@ -14,8 +14,8 @@ const Fixtures = () => {
             </div>
             <div className="content-right">
                 <h2>Fixtures</h2>
-                {error && <div>{error}</div>}
-                {isPending && <div>Loading...</div>}
+                {error && <div className="LoaderError">{error}</div>}
+                {isPending && <div className="LoaderError">Loading...</div>}
                 {fixtures && <FixtureList fixtures={fixtures.filter((fixture) => fixture.date === "Sun 2nd July")} title="Sun 2nd July" />}             
                 {fixtures && <FixtureList fixtures={fixtures.filter((fixture) => fixture.date === "Mon 3rd July")} title="Mon 3rd July" />} 
             </div>

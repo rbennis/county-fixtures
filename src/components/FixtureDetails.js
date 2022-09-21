@@ -6,10 +6,6 @@ const FixtureDetails = () => {
     const { data: fixture, error, isPending } = useFetch('http://localhost:8000/data' + id);
 
     return ( 
-        console.log('fixture ' + fixture),
-        console.log('error ' + error),
-        console.log('isPending ' + isPending),
-
         <div className="fixture-details">
             { isPending && <div>Loading...</div> }
             { error && <div>{error}</div> }

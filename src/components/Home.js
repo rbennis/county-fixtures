@@ -13,8 +13,8 @@ const Home = () => {
             </div>
             <div className="content-right">
                 <h1>Fixtures &amp; Results</h1>    
-                {error && <div>{error}</div>}
-                {isPending && <div>Loading...</div>}
+                {error && <div className="LoaderError">{error}</div>}
+                {isPending && <div className="LoaderError">Loading...</div>}
                 {fixtures && <FixtureList fixtures={fixtures.filter((fixture) => fixture.date === "Fri 30th June")} title="Fri 30th June" />}   
                 {fixtures && <FixtureList fixtures={fixtures.filter((fixture) => fixture.date === "Sat 1st July")} title="Sat 1st July" />}     
                 {fixtures && <FixtureList fixtures={fixtures.filter((fixture) => fixture.date === "Sun 2nd July")} title="Sun 2nd July" />}             

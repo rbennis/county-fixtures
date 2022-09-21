@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+/**
+topBanner - 142348
+navBar - 21408a
+quickLinksNav - febb19
+Fixtures header background - 23396c
+Sponsor block - 214087
+Footer - febb19
+**/
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Roboto";
+  color: #333;
+  font-size: 15px;
+}
+h1 {
+  color: #333;
+  font-size: 25px;
+}
+
+.content {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* topBanner */
+.topBanner {
+  background-color: #142348;
+}
+
+.topBanner .content {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.topBanner h2 {
+  color: #5c80a4;
+  font-size: 12px;
+}
+.topBanner .social {
+  margin-left: auto;
+}
+
+.fa-facebook-square {
+  color: #3B5998;
+}
+.fa-twitter-square {
+  color: #00aced;
+}
+.fa-instagram-square {
+  color: #00aced;
+}
+
+/*Nav Bar */
+.navbar {
+  background-color: #21408a;
+}
+
+.tippLogo, .munsterLogo {
+  width: 80px;
+}
+
+.munsterLogo {
+  margin-bottom: -40px;
+}
+
+.gaaLogo {
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+.navbar .content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #21408a;
+}
+.navbar .associationLogos {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #4d5bda;
+}
+
+.quickLinksNav {
+  background-color: #febb19;
+}
+
+.quickLinksNav .content {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.quickLinksNav span {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+.quickLinksNav a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #23396c;
+  font-size: 13px;
+}
+.quickLinksNav a:hover {
+  text-decoration: underline;
+}
+
+.content-right {
+  overflow:hidden;
+  padding-left: 10px;
+}
+
+/* Side Nav content-left*/
+.content-left {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+}
+
+.sideNav {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideNav .sideNavLists {
+  background-color: #f0f0f0;
+  margin: 0px 10px 30px 10px;
+  padding: 15px;
+}
+
+.sideNav ul { list-style-type: none; margin: 0px; padding: 0px;}
+.sideNav ul li, .sideNav ul li.bottom { margin: 0px 5px 5px 5px; padding: 5px 5px 5px 0px; border-bottom: solid 1px #ddd; }
+.sideNav ul li.bottom { border-bottom: 0px; }
+.sideNav ul li a { text-decoration: none; color: #23396c; }
+.sideNav ul li a:hover { text-decoration: underline; color: #2ba6cb; }
+.sideNav ul li.filter-title {background: none; border: none; font-weight: bold; padding-bottom: 20px;}
+
+
+/* Fixtures block content-right */
+.content-right h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.fixtureList h3 {
+  background-color: #23396c;
+  margin: auto;
+  padding: 10px;
+  margin:30px 0 0 0;
+  color: #fff;
+}
+
+.fixtureBlock {
+  background-color: #f0f0f0;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+}
+
+.fixtureBlock .fixtureBlockTitle {
+  font-weight: bold;
+}
+
+.fixtureBlock h4 {
+  color: #23396c;
+  padding-bottom: 10px;
+}
+.fixtureBlock p {
+  padding-bottom: 5px;
+}
+
+/* Sponsors block */
+.sponsorsBlock {
+  background-color: #214087;
+  text-align: center;
+}
+
+.sponsorsBlock .content {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sponsorsLogo {
+  width: 180px;
+  margin: 30px;
+}
+
+/* Footer */
+.footer {
+  background-color: #febb19;
+}
+
+.footer .content {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: top;
+  margin: 0 auto;
+}
+
+.footer .footerLeft, .footer .footerMiddle, .footer .footerRight {
+  margin: 30px 0 30px 0;
+  width: 33%;
+}
+
+.footer .footerMiddle {
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.footer .footerRight {
+  text-align: right;
+  padding-left: 70px;
+}
+ 
+.footer p {  
+  margin-bottom: 15px;
+}
+
+.footer p.title {
+  font-weight: bold;
+  color: #142348;
+}
+
+.footer p a {
+  text-decoration: none;
+}
+
+footer p.copyright {
+  font-size: 12px;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+
+/*Loader Error set height to the block */
+.LoaderError {
+  height: 500px;
+}

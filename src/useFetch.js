@@ -12,7 +12,7 @@ const useFetch = (url) => {
             fetch(url, { signal: abortCont.signal })
                 .then(res => {
                     if(!res.ok) {
-                        throw Error('Computer says noooooo');
+                        throw Error('No data at this time - Please check again later');
                     }
                     else {
                         return res.json()
@@ -26,7 +26,6 @@ const useFetch = (url) => {
                 .catch(err => {
 
                     if(err.name === 'AbortError') {
-                        console.log('fetchAborted');
                     } else {
                         setIsPending(false);
                         setError(err.message);
