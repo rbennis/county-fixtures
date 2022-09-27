@@ -126,6 +126,7 @@ h1 {
 .content-right {
   overflow:hidden;
   padding-left: 10px;
+  min-height: 500px;
 }
 
 /* Side Nav content-left*/
@@ -183,8 +184,14 @@ h1 {
   color: #23396c;
   padding-bottom: 10px;
 }
-.fixtureBlock p {
-  padding-bottom: 5px;
+
+.fixtureBlock h4 a {
+  color: #23396c;
+  text-decoration: none;
+}
+
+.fixtureBlock h4 span {
+  margin: 0 5px 0 5px;
 }
 
 /* Sponsors block */

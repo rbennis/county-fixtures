@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 const SideNav = () => {
@@ -16,10 +17,10 @@ const SideNav = () => {
             <div className="sideNavLists">
                 <ul>  
                     <li className="filter-title">Code</li>
-                    <li><Link to="/code?code=hurling">Hurling</Link></li>
-                    <li><Link to="/code?code=football">Football</Link></li>
-                    <li><Link to="/code?code=camogie">Camogie</Link></li>
-                    <li className="bottom"><Link to="/code?code=ladies-football">Ladies Football</Link></li>
+                    <li><Link to="/GAACode?GAACode=hurling">Hurling</Link></li>
+                    <li><Link to="/GAACode?GAACode=football">Football</Link></li>
+                    <li><Link to="/GAACode?GAACode=camogie">Camogie</Link></li>
+                    <li className="bottom"><Link to="/GAACode?GAACode=ladies-football">Ladies Football</Link></li>
                 </ul>
             </div>
         </nav> 

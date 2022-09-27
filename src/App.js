@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Fixtures from './components/Fixtures';
 import Results from './components/Results';
 import Team from './components/Team';
-import Code from './components/Code';
+import GAACode from './components/GAACode';
 import QuickLinksNav from './components/QuickLinksNav';
 import SponsorsBlock from './components/SponsorsBlock';
 import Footer from './components/Footer';
@@ -30,7 +30,7 @@ function App() {
                 <Results />
               </Route>
               <Route path="/Team" component={Team} />
-              <Route path="/Code" component={Code} />
+              <Route path="/GAACode" component={GAACode} />
             </Switch>
           </div>
           <SponsorsBlock />

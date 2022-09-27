@@ -10,7 +10,7 @@ const Fixtures = () => {
     return ( 
         <div className="home">
             <div className="content-left">
-                <SideNav />             
+                <SideNav fixture={fixtures} />             
             </div>
             <div className="content-right">
                 <h2>Fixtures</h2>

@@ -9,7 +9,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className="content-left">
-                <SideNav />                
+            <SideNav fixture={fixtures} />             
             </div>
             <div className="content-right">
                 <h1>Fixtures &amp; Results</h1>    

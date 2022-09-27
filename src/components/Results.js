@@ -11,7 +11,7 @@ const Results = () => {
 
         <div className="home">
             <div className="content-left">
-                <SideNav />                
+                <SideNav fixture={fixtures} />                
             </div>
             <div className="content-right">
                 <h2>Results</h2>
