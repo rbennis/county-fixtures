@@ -7,6 +7,7 @@ import Fixtures from './components/Fixtures';
 import Results from './components/Results';
 import Team from './components/Team';
 import GAACode from './components/GAACode';
+import GAAPI from './components/GAAPI';
 import QuickLinksNav from './components/QuickLinksNav';
 import SponsorsBlock from './components/SponsorsBlock';
 import Footer from './components/Footer';
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route path="/Results">
                 <Results />
+              </Route>              
+              <Route path="/GAAPI">
+                <GAAPI />
               </Route>
               <Route path="/Team" component={Team} />
               <Route path="/GAACode" component={GAACode} />
