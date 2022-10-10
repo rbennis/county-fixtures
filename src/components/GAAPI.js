@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 export default function GAAPI() {
     const apiKey = "Z4tEl9GjbL0IRvMUIfFW5UlJPNF9pcmk"; 
     const cors = "https://cors-anywhere.herokuapp.com/";
-    const url = 'https://people.gaa.ie/api/fixtures/jsonp?owner=2149&countyBoardId=27';
+    const url = cors + 'https://people.gaa.ie/api/fixtures/jsonp?owner=2149&countyBoardId=27';
     const url3 = "https://people.gaa.ie/api/fixtures/jsonp?wrap=null&owner=2149&countyBoardId=27";
     const url2 = "https://prod.emea.api.fiservapps.com/sandbox/exp/v1/transactions?limit=20&offset=0";
     
