@@ -14,8 +14,8 @@ const TopNavbar = () => {
                 <Link to="/fixtures">Fixtures</Link>
                 <Link to="/gaapi">GAAPI</Link>
                 <div className="associationLogos">                 
-                <a href="https://munster.gaa.ie" target="_blank"><img src={munsterLogo} className="munsterLogo" alt="Tipperary GAA" title="Tipperary GAA"/></a>
-                <a href="https://gaa.ie" target="_blank"><img src={gaaLogo} className="gaaLogo" alt="Tipperary GAA" title="Tipperary GAA"/></a>
+                <a href="https://munster.gaa.ie" ><img src={munsterLogo} className="munsterLogo" alt="Tipperary GAA" title="Tipperary GAA"/></a>
+                <a href="https://gaa.ie" ><img src={gaaLogo} className="gaaLogo" alt="Tipperary GAA" title="Tipperary GAA"/></a>
                 </div>
             </div>
         </nav> 
